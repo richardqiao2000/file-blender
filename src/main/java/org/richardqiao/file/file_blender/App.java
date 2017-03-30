@@ -11,9 +11,12 @@ import java.util.*;
 
 public class App
 {
-    private static String input = "src/main/resources/data/Spark Translations.docx";
-    private static String output = "src/main/resources/data/Spark Translations.docx.bld";
-    private static String output2 = "src/main/resources/data/Spark Translations.docx.ubld";
+    private final static String fileName = "README.md"; // text file
+    //private final static String fileName = "Spark Translations.docx"; // binary file
+    private final static String path = "src/main/resources/data/";
+    private static String input = path + fileName;
+    private static String output = input + ".bld";
+    private static String output2 = input + ".ubld";
     public static void main( String[] args ) throws IOException{
       blend(input, output, 5, "");
       unBlend(output, output2, 5, "");

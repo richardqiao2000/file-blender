@@ -14,4 +14,5 @@ dfiwoooioieo/c vb gdtrafeiiee gomy tgAa atwoc eskhhlsncohr, deer oomsios eneedfl
 
 
 It works great for video/picture etc binary files too.
- 
+
+In the Apple-FBA story,FBA finally cracked the file system of IOS and get what they want, but with this, you don't need worry your file's safety at all, unless this algorithm was captured by FBA :-)

@@ -1,6 +1,6 @@
 # File Blender v0.1
 
-For cryptography purpose, you would like have your own crypo algorithm to save in cloud, since there is no "secrete" and "safe" place on cloud theoretically.
+For cryptography purpose, you would like have your own crypo algorithm to save in cloud, since there is no "secret" and "safe" place on cloud theoretically.
 Blending file is a way to encode your file to a different format/structure to avoid being recognized by the original software.
 Since it's encoded by using algorithm only but not through SHA2, hacker has almost no way to crack it if he doesn't know how the file was blended.
 

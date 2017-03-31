@@ -1,4 +1,4 @@
-package org.richardqiao.file.file_blender;
+package org.richardqiao.io;
 
 /**
  * 1. Split and Merge (Blend)
@@ -60,7 +60,7 @@ public class App
       BufferedOutputStream bos = null;
       try{
         File file = new File(input);
-        int len = (int)file.length() / split;
+        int len = (int)(file.length() / split);
         int mod = (int)file.length() % split; 
         if(mod != 0) len++;
         byte[][] bytes = new byte[split][len];
@@ -96,7 +96,7 @@ public class App
       BufferedInputStream bis = null;
       try{
         File file = new File(inputFileName);
-        int len = (int)file.length() / split;
+        int len = (int)(file.length() / split);
         int mod = (int)file.length() % split;
         if(mod != 0) len++;
         bis = new BufferedInputStream(new FileInputStream(file));
